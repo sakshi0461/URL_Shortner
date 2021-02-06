@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL_Shortner</title>
+</head>
+<body>
+    <a href="<%=ShortUrl%>"><%=ShortUrl%></a>
+    <form action="/" id="form" method="POST">
+        <label>Long URL</label>
+        <input placeholder="Input URL" type="url" id="input" name="longUrl" required>
+        <button type="submit" id="button">URL Shortner</button>
+    </form>
+</body>
+</html>
